@@ -649,7 +649,7 @@ module.exports = function(passport) {
     },
 
     function(request, token, refreshToken, profile, done) {
-        console.log(profile)
+
         // asynchronous
         process.nextTick(function() {
 
